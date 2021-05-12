@@ -1,4 +1,4 @@
 # Counter
 
-View live preview at
+View live demo at
 https://sanskrutirp.github.io/Counter/
