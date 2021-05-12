@@ -52,6 +52,6 @@ body{
     .left,
     .right,
     .count{
-        padding:1rem;
+        padding:.5rem;
     }
 }
