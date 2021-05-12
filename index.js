@@ -8,12 +8,15 @@ let inc = document.getElementById('inc');
 let counter = document.getElementById('count');
 let curr_count = count.innerText; 
 dec.addEventListener('click', () =>  {
-    if(count1 % 2 == 0)
+    if(count1 % 2 == 0){
         curr_count--;
-    else
+        zero-=rotateY;
+    }
+    else{
         curr_count++;
+        zero+=rotateY;
+    }
     container.style.transitionDuration = '.5s';
-    zero-=rotateY;
     container.style.transform = 'rotateY('+zero+'deg)';
     updateCounter(curr_count);
     counter.style.transform = 'rotateY('+zero+'deg)';
@@ -21,11 +24,14 @@ dec.addEventListener('click', () =>  {
 });
 
 inc.addEventListener('click', () => {
-    if(count1 % 2 == 0)
+    if(count1 % 2 == 0){
         curr_count++;
-    else
+        zero+=rotateY;
+    }
+    else{
         curr_count--;
-    zero += rotateY;
+        zero-=rotateY;
+    }
     container.style.transitionDuration = '.5s';
     container.style.transform = 'rotateY(' + zero + 'deg)';
     updateCounter(curr_count);
