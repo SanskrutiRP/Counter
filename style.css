@@ -1,0 +1,57 @@
+*{
+    margin: auto;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.number{
+    margin: 10% 20% 10% 20%;
+    padding: 10%;
+    background-color: turquoise;
+    border-left: dotted;
+    border-width: 1rem;
+    box-shadow:5px 5px 10px 0 rgba(216, 221, 221, 0.19);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.one{
+    flex: 30%;
+    margin-bottom: 2rem;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+.two{
+    color: white;
+    background-color: black;
+    flex: 40%;
+    box-shadow: 0 5px 5px 0 rgb(46, 44, 44);
+}
+
+@media (max-width: 600px) {
+    .one, .two{
+        flex: 100%;
+    }
+}
+.counter{
+    display: flex;
+}
+
+.left,
+.count,
+.right{
+    padding: 2rem;
+}
+
+@media (max-width:250px){
+    .left,
+    .right,
+    .count{
+        padding:1rem;
+    }
+}
