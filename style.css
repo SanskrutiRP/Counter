@@ -48,7 +48,7 @@ body{
     padding: 2rem;
 }
 
-@media (max-width:350px){
+@media (max-width:250px){
     .left,
     .right,
     .count{
