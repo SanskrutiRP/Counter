@@ -13,7 +13,7 @@ body{
     background-color: turquoise;
     border-left: dotted;
     border-width: 1rem;
-    box-shadow: -0.2rem 1.5rem 1.5rem rgba(255, 255, 255, 0.25);
+    box-shadow: -2rem 1.5rem .5rem rgba(255, 255, 255, 0.25);
     display: flex;
     flex-wrap: wrap;
 }
